@@ -42,7 +42,7 @@
                     <a class="nav-link" href="../cv.html">Резюме</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Контакты</a>
+                    <a class="nav-link" href="../contacts.html">Контакты</a>
                 </li>
             </ul>
         </div>
@@ -61,26 +61,31 @@
 
     <ul class="list-group">
         <li class="list-group-item">Адаптивный дизайн под телефон/планшет/пк;</li>
-        <li class="list-group-item">Придержаны принципы ООП;</li>
-        <li class="list-group-item">Взаимодействие с БД, некоторые модели используют связи многие-ко-многим а также один-ко-многим</li>
+        <li class="list-group-item">Придержаны принципы ООП, MVC;</li>
+        <li class="list-group-item">Взаимодействие с БД, некоторые модели используют связи многие-ко-многим а также один-ко-многим;</li>
+        <li class="list-group-item">
+            Реализован CRUD для категорий, подкатегорий, который доступен в админской части, гости и пользователи могут только просматривать записи;
+        </li>
         <li class="list-group-item">
             Создана полноценная админ панель, которая не допускает пользователей и гостей к админской части. Доступ есть только у админов,
             находящихся в БД в таблице admins;
         </li>
-        <li class="list-group-item">Использована неявная привязка модели к маршруту</li>
-        <li class="list-group-item">Архитектура в стиле REST</li>
-        <li class="list-group-item">Реализована система регистрации и авторизации</li>
-        <li class="list-group-item">Дизайн сайта представляет собой шаблон Bootstrap'а , а также добавление своих стилей</li>
+        <li class="list-group-item">Использована неявная привязка модели к маршруту;</li>
+        <li class="list-group-item">Архитектура в стиле REST;</li>
+        <li class="list-group-item">Реализована система регистрации и авторизации;</li>
+        <li class="list-group-item">
+            Использование шаблонизатора Blade для отображения информации получаемой из контроллеров, а также более удобной архитектуры представлений;
+        </li>
+        <li class="list-group-item">Дизайн сайта представляет собой шаблон Bootstrap'а , а также добавление своих стилей.</li>
     </ul>
 
     <div class="album py-5 bg-light">
         <div class="container">
-
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <a href="../img/freelance-front.png">
-                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="../img/freelance-front.png" data-holder-rendered="true">
+                        <a href="../img/project_freelance/freelance-front.png">
+                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="../img/project_freelance/freelance-front.png" data-holder-rendered="true">
                         </a>
                         <div class="card-body">
                             <p class="card-text">Главная страница. Раздел с категориями</p>
@@ -91,8 +96,8 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <a href="../img/freelance-login.png">
-                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="../img/freelance-login.png" data-holder-rendered="true">
+                        <a href="../img/project_freelance/freelance-login.png">
+                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="../img/project_freelance/freelance-login.png" data-holder-rendered="true">
                         </a>
                         <div class="card-body">
                             <p class="card-text">Форма авторизации(В дальнейшем будет переделана)</p>
@@ -103,11 +108,35 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <a href="../img/freelance-sub.png">
-                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="../img/freelance-sub.png" data-holder-rendered="true">
+                        <a href="../img/project_freelance/freelance-sub.png">
+                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="../img/project_freelance/freelance-sub.png" data-holder-rendered="true">
                         </a>
                         <div class="card-body">
                             <p class="card-text">Страница с подкатегориями категории Дизайн</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <a href="../img/project_freelance/admin_main.png">
+                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="../img/project_freelance/admin_main.png" data-holder-rendered="true">
+                        </a>
+                        <div class="card-body">
+                            <p class="card-text">Главная страница админской панели, где отображены последние добавленные категории</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <a href="../img/project_freelance/admin_sub_categories.png">
+                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="../img/project_freelance/admin_sub_categories.png" data-holder-rendered="true">
+                        </a>
+                        <div class="card-body">
+                            <p class="card-text">Страница админской панели, на которой отображаются все подкатегории</p>
                             <div class="d-flex justify-content-between align-items-center">
                             </div>
                         </div>

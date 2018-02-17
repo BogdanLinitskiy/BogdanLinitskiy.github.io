@@ -42,7 +42,7 @@
                     <a class="nav-link" href="../cv.html">Резюме</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Контакты</a>
+                    <a class="nav-link" href="../contacts.html">Контакты</a>
                 </li>
             </ul>
         </div>
@@ -61,18 +61,23 @@
 
     <ul class="list-group">
         <li class="list-group-item">Адаптивный дизайн под телефон/планшет/пк;</li>
-        <li class="list-group-item">Придержаны принципы ООП;</li>
-        <li class="list-group-item">Взаимодействие с БД, некоторые модели используют связи многие-ко-многим а также один-ко-многим</li>
-        <li class="list-group-item">Реализован CRUD для товаров, заказов, которые реализованы через resource-контроллеры и роуты</li>
-
+        <li class="list-group-item">Придержаны принципы ООП, MVC;</li>
+        <li class="list-group-item">Взаимодействие с БД, некоторые модели используют связи многие-ко-многим а также один-ко-многим;</li>
+        <li class="list-group-item">Наличие resource контроллеров и роутов;</li>
+        <li class="list-group-item">
+            Реализован CRUD для товаров, заказов, статей, который доступен в админской части, гости и пользователи могут только просматривать записи;
+        </li>
         <li class="list-group-item">
             Создана полноценная админ панель, которая не допускает пользователей и гостей к админской части. Доступ есть только у админов,
-            находящихся в БД в таблице admins;
+            находящихся в БД в таблице admins. Создан middleware Admin;
         </li>
-        <li class="list-group-item">Использована неявная привязка модели к маршруту</li>
-        <li class="list-group-item">Архитектура в стиле REST</li>
-        <li class="list-group-item">Реализована система регистрации и авторизации</li>
-        <li class="list-group-item">Дизайн сайта представляет собой шаблон Bootstrap'а , а также добавление своих стилей</li>
+        <li class="list-group-item">Использована неявная привязка модели к маршруту;</li>
+        <li class="list-group-item">Архитектура в стиле REST;</li>
+        <li class="list-group-item">Реализована система регистрации и авторизации;</li>
+        <li class="list-group-item">
+            Использование шаблонизатора Blade для отображения информации получаемой из контроллеров, а также более удобной архитектуры представлений;
+        </li>
+        <li class="list-group-item">Дизайн сайта представляет собой шаблон Bootstrap'а , а также добавление своих стилей.</li>
     </ul>
 
     <div class="album py-5 bg-light">
