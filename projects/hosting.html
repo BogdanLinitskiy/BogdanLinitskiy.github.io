@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bogdan Linitskiy portfolio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/1-col-portfolio.css" rel="stylesheet">
+    <link href="../css/images.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="../index.html">Bogdan Linitskiy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Домашняя страница
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../about.html">О сайте</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../cv.html">Резюме</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../contacts.html">Контакты</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+
+
+    <h2 class="my-4">В данный момент в проекте реализовано:</h2>
+
+    <p>Ссылка на исходный код проекта на
+        <a href="https://github.com/bogdanlinitskiy/video.test">GitHub</a>
+    </p>
+
+    <ul class="list-group">
+        <li class="list-group-item">Адаптивный дизайн под телефон/планшет/пк;</li>
+        <li class="list-group-item">Придержаны принципы ООП, MVC;</li>
+        <li class="list-group-item">Взаимодействие с БД, некоторые модели используют связи многие-ко-многим а также один-ко-многим;</li>
+        <li class="list-group-item">
+            Реализован CRUD для категорий, видео и актеров, который доступен в админской части, гости и пользователи могут только просматривать записи;
+        </li>
+        <li class="list-group-item">
+            Создана полноценная админ панель, которая не допускает пользователей и гостей к админской части. Доступ есть только у админов,
+            находящихся в БД в таблице admins;
+        </li>
+        <li class="list-group-item">Использована неявная привязка модели к маршруту;</li>
+        <li class="list-group-item">Архитектура в стиле REST;</li>
+        <li class="list-group-item">Реализована система регистрации и авторизации;</li>
+        <li class="list-group-item">
+            Использование шаблонизатора Blade для отображения информации получаемой из контроллеров, а также более удобной архитектуры представлений;
+        </li>
+        <li class="list-group-item">Использование технологии Algolia для поиска видео;</li>
+        <li class="list-group-item">Добавлено комментирование видео для авторизированных пользователей;</li>
+        <li class="list-group-item">Использована пагинация;</li>
+        <li class="list-group-item">Все видео и картинки хранятся в папке public.</li>
+    </ul>
+
+    <div class="album py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <a href="../img/project_hosting/users_main.png">
+                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="../img/project_hosting/users_main.png" data-holder-rendered="true">
+                        </a>
+                        <div class="card-body">
+                            <p class="card-text">Главная страница</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <a href="../img/project_hosting/users_authorization.png">
+                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="../img/project_hosting/users_authorization.png" data-holder-rendered="true">
+                        </a>
+                        <div class="card-body">
+                            <p class="card-text">Форма авторизации</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <a href="../img/project_hosting/users_search.png">
+                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="../img/project_hosting/users_search.png" data-holder-rendered="true">
+                        </a>
+                        <div class="card-body">
+                            <p class="card-text">Использование поиска при помощи технологии Algolia</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <a href="../img/project_hosting/admins_videos.png">
+                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="../img/project_hosting/admins_videos.png" data-holder-rendered="true">
+                        </a>
+                        <div class="card-body">
+                            <p class="card-text">Админ панель. Страница с доступными видео</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- /.container -->
+
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+    <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Bogdan Linitskiy 2018</p>
+    </div>
+    <!-- /.container -->
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
